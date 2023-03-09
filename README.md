@@ -1,4 +1,4 @@
-README for Github - Questions and Answers Quiz
+## README for Github - Questions and Answers Quiz
 This Python code is a simple quiz game that asks the user a set of randomized questions and scores their answers. The questions and answers are read from an Excel file and shuffled to ensure that the user receives a different set of questions each time they play. The code uses the Levenshtein distance algorithm to score the user's answers based on how similar they are to the correct answer.
 
 Getting Started
