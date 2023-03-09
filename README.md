@@ -10,22 +10,22 @@ To run this code, you will need Python 3.x installed on your machine and an Exce
 4. Run the code using python quiz.py.
 
 ## How to Play
-Run the code using python quiz.py.
-Answer the questions that are presented to you one at a time.
-Your score will be presented to you at the end of the quiz.
+1. Run the code using python quiz.py.
+2. Answer the questions that are presented to you one at a time.
+3. Your score will be presented to you at the end of the quiz.
 
 ## How it Works
-The code reads the questions and answers from an Excel file using the pandas library.
-The questions and answers are shuffled using the sample method.
-The code presents each question to the user and prompts them for an answer using the input function.
-The user's answer is compared to the correct answer using the Levenshtein distance algorithm.
-If the user's answer is an exact match, they receive 2 points. If the answer is similar but not exact, they receive 1 point. If the answer is incorrect, they receive 0 points.
-The user's score is presented at the end of the quiz.
+1. The code reads the questions and answers from an Excel file using the pandas library.
+2. The questions and answers are shuffled using the sample method.
+3. The code presents each question to the user and prompts them for an answer using the input function.
+4. The user's answer is compared to the correct answer using the Levenshtein distance algorithm.
+5. If the user's answer is an exact match, they receive 2 points. If the answer is similar but not exact, they receive 1 point. If the answer is incorrect, they receive 0 points.
+6. The user's score is presented at the end of the quiz.
 
 ## Dependencies
-Python 3.x
-pandas
-Levenshtein
+* Python 3.x
+* pandas
+* Levenshtein
 
 ## License
 Nothing special.
